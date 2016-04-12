@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B890CE81CB5726800D1F5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B890CE71CB5726800D1F5CF /* AppDelegate.swift */; };
+		1B890CEA1CB5726800D1F5CF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B890CE91CB5726800D1F5CF /* GameScene.sks */; };
+		1B890CEC1CB5726800D1F5CF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B890CEB1CB5726800D1F5CF /* GameScene.swift */; };
+		1B890CEE1CB5726800D1F5CF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B890CED1CB5726800D1F5CF /* GameViewController.swift */; };
+		1B890CF11CB5726800D1F5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B890CEF1CB5726800D1F5CF /* Main.storyboard */; };
+		1B890CF31CB5726800D1F5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B890CF21CB5726800D1F5CF /* Assets.xcassets */; };
+		1B890CF61CB5726800D1F5CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B890CF41CB5726800D1F5CF /* LaunchScreen.storyboard */; };
+		1B890CFE1CB5737E00D1F5CF /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B890CFD1CB5737E00D1F5CF /* MainMenu.swift */; };
+		1B890D001CB573F500D1F5CF /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B890CFF1CB573F500D1F5CF /* MainMenu.sks */; };
+		1B8E5CDD1CBC0A0900795C1B /* OptionsMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B8E5CDC1CBC0A0900795C1B /* OptionsMenu.sks */; };
+		1B8E5CDF1CBC0A2400795C1B /* OptionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E5CDE1CBC0A2400795C1B /* OptionsMenu.swift */; };
+		1BF510131CBD619500650692 /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF510121CBD619500650692 /* GameUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B890CE41CB5726800D1F5CF /* spacedroids2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spacedroids2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B890CE71CB5726800D1F5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B890CE91CB5726800D1F5CF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1B890CEB1CB5726800D1F5CF /* GameScene.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1B890CED1CB5726800D1F5CF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1B890CF01CB5726800D1F5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B890CF21CB5726800D1F5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B890CF51CB5726800D1F5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B890CF71CB5726800D1F5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B890CFD1CB5737E00D1F5CF /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1B890CFF1CB573F500D1F5CF /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		1B8E5CDC1CBC0A0900795C1B /* OptionsMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OptionsMenu.sks; sourceTree = "<group>"; };
+		1B8E5CDE1CBC0A2400795C1B /* OptionsMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = OptionsMenu.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1BF510121CBD619500650692 /* GameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B890CE11CB5726800D1F5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B890CDB1CB5726800D1F5CF = {
+			isa = PBXGroup;
+			children = (
+				1B890CE61CB5726800D1F5CF /* spacedroids2015 */,
+				1B890CE51CB5726800D1F5CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B890CE51CB5726800D1F5CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B890CE41CB5726800D1F5CF /* spacedroids2015.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B890CE61CB5726800D1F5CF /* spacedroids2015 */ = {
+			isa = PBXGroup;
+			children = (
+				1B890CE71CB5726800D1F5CF /* AppDelegate.swift */,
+				1B890CE91CB5726800D1F5CF /* GameScene.sks */,
+				1B890CEB1CB5726800D1F5CF /* GameScene.swift */,
+				1B890CED1CB5726800D1F5CF /* GameViewController.swift */,
+				1B890CEF1CB5726800D1F5CF /* Main.storyboard */,
+				1B890CF21CB5726800D1F5CF /* Assets.xcassets */,
+				1B890CF41CB5726800D1F5CF /* LaunchScreen.storyboard */,
+				1B890CF71CB5726800D1F5CF /* Info.plist */,
+				1B890CFD1CB5737E00D1F5CF /* MainMenu.swift */,
+				1B890CFF1CB573F500D1F5CF /* MainMenu.sks */,
+				1B8E5CDC1CBC0A0900795C1B /* OptionsMenu.sks */,
+				1B8E5CDE1CBC0A2400795C1B /* OptionsMenu.swift */,
+				1BF510121CBD619500650692 /* GameUtils.swift */,
+			);
+			path = spacedroids2015;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B890CE31CB5726800D1F5CF /* spacedroids2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B890CFA1CB5726800D1F5CF /* Build configuration list for PBXNativeTarget "spacedroids2015" */;
+			buildPhases = (
+				1B890CE01CB5726800D1F5CF /* Sources */,
+				1B890CE11CB5726800D1F5CF /* Frameworks */,
+				1B890CE21CB5726800D1F5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spacedroids2015;
+			productName = spacedroids2015;
+			productReference = 1B890CE41CB5726800D1F5CF /* spacedroids2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B890CDC1CB5726800D1F5CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jones, Dave";
+				TargetAttributes = {
+					1B890CE31CB5726800D1F5CF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B890CDF1CB5726800D1F5CF /* Build configuration list for PBXProject "spacedroids2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B890CDB1CB5726800D1F5CF;
+			productRefGroup = 1B890CE51CB5726800D1F5CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B890CE31CB5726800D1F5CF /* spacedroids2015 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B890CE21CB5726800D1F5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B890CEA1CB5726800D1F5CF /* GameScene.sks in Resources */,
+				1B890CF61CB5726800D1F5CF /* LaunchScreen.storyboard in Resources */,
+				1B890CF31CB5726800D1F5CF /* Assets.xcassets in Resources */,
+				1B890D001CB573F500D1F5CF /* MainMenu.sks in Resources */,
+				1B890CF11CB5726800D1F5CF /* Main.storyboard in Resources */,
+				1B8E5CDD1CBC0A0900795C1B /* OptionsMenu.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B890CE01CB5726800D1F5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B890CEC1CB5726800D1F5CF /* GameScene.swift in Sources */,
+				1BF510131CBD619500650692 /* GameUtils.swift in Sources */,
+				1B890CEE1CB5726800D1F5CF /* GameViewController.swift in Sources */,
+				1B890CE81CB5726800D1F5CF /* AppDelegate.swift in Sources */,
+				1B8E5CDF1CBC0A2400795C1B /* OptionsMenu.swift in Sources */,
+				1B890CFE1CB5737E00D1F5CF /* MainMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B890CEF1CB5726800D1F5CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B890CF01CB5726800D1F5CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B890CF41CB5726800D1F5CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B890CF51CB5726800D1F5CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B890CF81CB5726800D1F5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B890CF91CB5726800D1F5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B890CFB1CB5726800D1F5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spacedroids2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lockersoft.lecture2016.spacedroids2015;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B890CFC1CB5726800D1F5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spacedroids2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lockersoft.lecture2016.spacedroids2015;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B890CDF1CB5726800D1F5CF /* Build configuration list for PBXProject "spacedroids2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B890CF81CB5726800D1F5CF /* Debug */,
+				1B890CF91CB5726800D1F5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B890CFA1CB5726800D1F5CF /* Build configuration list for PBXNativeTarget "spacedroids2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B890CFB1CB5726800D1F5CF /* Debug */,
+				1B890CFC1CB5726800D1F5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B890CDC1CB5726800D1F5CF /* Project object */;
+}
