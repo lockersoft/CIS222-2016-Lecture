@@ -9,8 +9,13 @@
 import SpriteKit
 
 var ship : SKSpriteNode!
+var asteroid : SKSpriteNode!
+
 let rotateGesture = UIRotationGestureRecognizer()
 var rotationOffset : CGFloat = 0.0
+var textureAtlas = SKTextureAtlas()
+var asteroidAnimation = [SKTexture]()
+var animateAsteroidAction = SKAction()
 
 class GameScene: SKScene {
   override func didMoveToView(view: SKView) {
@@ -30,7 +35,13 @@ class GameScene: SKScene {
     ship.xScale = 0.5
     ship.yScale = 0.5
     ship.position = CGPoint(x: 200,y: 200)
+    ship.zPosition = 100
     self.addChild(ship)
+    
+    self.addChild(Asteroid(pos: CGPoint(x: -200, y: -200)))
+    self.addChild(Asteroid(pos: CGPoint(x: -100, y: -200)))
+    self.addChild(Asteroid(pos: CGPoint(x: -300, y: -200)))
+
   }
   
   func rotateShip(gesture: UIRotationGestureRecognizer){
