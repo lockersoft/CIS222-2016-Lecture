@@ -28,6 +28,11 @@ class Asteroid: SKSpriteNode {
     animateAsteroidAction = SKAction.animateWithTextures(asteroidAnimation, timePerFrame: 0.08 )
     
     self.position = pos
+    
+    self.physicsBody = SKPhysicsBody(circleOfRadius: self.size.width / 5)
+    self.physicsBody?.categoryBitMask = PhysicsCategory.Asteroid
+    self.physicsBody?.collisionBitMask = PhysicsCategory.All
+    self.name = "Asteroid"
     self.runAction(SKAction.repeatActionForever(animateAsteroidAction) )
   }
   

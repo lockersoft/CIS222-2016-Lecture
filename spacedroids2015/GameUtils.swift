@@ -9,6 +9,15 @@
 import Foundation
 import SpriteKit
 
-func degreesToRadians( rad : CGFloat ) -> CGFloat {
-    return CGFloat(rad * CGFloat(M_PI) / 180.0)
+func degreesToRadians( degrees : CGFloat ) -> CGFloat {
+    return CGFloat(degrees * CGFloat(M_PI) / 180.0)
+}
+
+struct PhysicsCategory {
+    static let None     : UInt32 = 0
+    static let All      : UInt32 = UINT32_MAX
+    static let Asteroid : UInt32 = 0b1              // 1
+    static let PhaserShot : UInt32 = 0b10           // 2
+    static let LaserShot : UInt32 = 0b100           // 4
+    static let SpaceShip : UInt32 = 0b1000          // 8
 }

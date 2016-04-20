@@ -24,6 +24,9 @@
 		1B2179561CC0011A009213C1 /* aLarge14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2179461CC0011A009213C1 /* aLarge14.png */; };
 		1B2179571CC0011A009213C1 /* aLarge15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2179471CC0011A009213C1 /* aLarge15.png */; };
 		1B2179591CC00601009213C1 /* Asteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2179581CC00601009213C1 /* Asteroid.swift */; };
+		1B80D09C1CC7E7E300956869 /* asteroidExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B80D09A1CC7E7E300956869 /* asteroidExplosion.sks */; };
+		1B80D09D1CC7E7E300956869 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80D09B1CC7E7E300956869 /* spark.png */; };
+		1B80D09F1CC7E98400956869 /* shipEngine.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B80D09E1CC7E98400956869 /* shipEngine.sks */; };
 		1B890CE81CB5726800D1F5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B890CE71CB5726800D1F5CF /* AppDelegate.swift */; };
 		1B890CEA1CB5726800D1F5CF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B890CE91CB5726800D1F5CF /* GameScene.sks */; };
 		1B890CEC1CB5726800D1F5CF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B890CEB1CB5726800D1F5CF /* GameScene.swift */; };
@@ -56,6 +59,9 @@
 		1B2179461CC0011A009213C1 /* aLarge14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aLarge14.png; sourceTree = "<group>"; };
 		1B2179471CC0011A009213C1 /* aLarge15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aLarge15.png; sourceTree = "<group>"; };
 		1B2179581CC00601009213C1 /* Asteroid.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Asteroid.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1B80D09A1CC7E7E300956869 /* asteroidExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = asteroidExplosion.sks; sourceTree = "<group>"; };
+		1B80D09B1CC7E7E300956869 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		1B80D09E1CC7E98400956869 /* shipEngine.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = shipEngine.sks; sourceTree = "<group>"; };
 		1B890CE41CB5726800D1F5CF /* spacedroids2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spacedroids2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B890CE71CB5726800D1F5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B890CE91CB5726800D1F5CF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -140,6 +146,9 @@
 				1B8E5CDE1CBC0A2400795C1B /* OptionsMenu.swift */,
 				1BF510121CBD619500650692 /* GameUtils.swift */,
 				1B2179581CC00601009213C1 /* Asteroid.swift */,
+				1B80D09A1CC7E7E300956869 /* asteroidExplosion.sks */,
+				1B80D09B1CC7E7E300956869 /* spark.png */,
+				1B80D09E1CC7E98400956869 /* shipEngine.sks */,
 			);
 			path = spacedroids2015;
 			sourceTree = "<group>";
@@ -203,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B21794C1CC0011A009213C1 /* aLarge4.png in Resources */,
+				1B80D09C1CC7E7E300956869 /* asteroidExplosion.sks in Resources */,
 				1B890CEA1CB5726800D1F5CF /* GameScene.sks in Resources */,
 				1B2179561CC0011A009213C1 /* aLarge14.png in Resources */,
 				1B890CF61CB5726800D1F5CF /* LaunchScreen.storyboard in Resources */,
@@ -210,10 +220,12 @@
 				1B2179511CC0011A009213C1 /* aLarge9.png in Resources */,
 				1B21794A1CC0011A009213C1 /* aLarge2.png in Resources */,
 				1B890CF31CB5726800D1F5CF /* Assets.xcassets in Resources */,
+				1B80D09F1CC7E98400956869 /* shipEngine.sks in Resources */,
 				1B21794F1CC0011A009213C1 /* aLarge7.png in Resources */,
 				1B2179571CC0011A009213C1 /* aLarge15.png in Resources */,
 				1B2179491CC0011A009213C1 /* aLarge1.png in Resources */,
 				1B890D001CB573F500D1F5CF /* MainMenu.sks in Resources */,
+				1B80D09D1CC7E7E300956869 /* spark.png in Resources */,
 				1B890CF11CB5726800D1F5CF /* Main.storyboard in Resources */,
 				1B2179551CC0011A009213C1 /* aLarge13.png in Resources */,
 				1B21794E1CC0011A009213C1 /* aLarge6.png in Resources */,
