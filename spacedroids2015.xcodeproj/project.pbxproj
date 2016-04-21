@@ -24,6 +24,8 @@
 		1B2179561CC0011A009213C1 /* aLarge14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2179461CC0011A009213C1 /* aLarge14.png */; };
 		1B2179571CC0011A009213C1 /* aLarge15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2179471CC0011A009213C1 /* aLarge15.png */; };
 		1B2179591CC00601009213C1 /* Asteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2179581CC00601009213C1 /* Asteroid.swift */; };
+		1B71F87E1CC93A830096DE49 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B71F87D1CC93A830096DE49 /* explosion.mp3 */; };
+		1B71F8801CC93B980096DE49 /* scifi10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B71F87F1CC93B980096DE49 /* scifi10.mp3 */; };
 		1B80D09C1CC7E7E300956869 /* asteroidExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B80D09A1CC7E7E300956869 /* asteroidExplosion.sks */; };
 		1B80D09D1CC7E7E300956869 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80D09B1CC7E7E300956869 /* spark.png */; };
 		1B80D09F1CC7E98400956869 /* shipEngine.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B80D09E1CC7E98400956869 /* shipEngine.sks */; };
@@ -59,6 +61,8 @@
 		1B2179461CC0011A009213C1 /* aLarge14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aLarge14.png; sourceTree = "<group>"; };
 		1B2179471CC0011A009213C1 /* aLarge15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aLarge15.png; sourceTree = "<group>"; };
 		1B2179581CC00601009213C1 /* Asteroid.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Asteroid.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1B71F87D1CC93A830096DE49 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		1B71F87F1CC93B980096DE49 /* scifi10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scifi10.mp3; sourceTree = "<group>"; };
 		1B80D09A1CC7E7E300956869 /* asteroidExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = asteroidExplosion.sks; sourceTree = "<group>"; };
 		1B80D09B1CC7E7E300956869 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		1B80D09E1CC7E98400956869 /* shipEngine.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = shipEngine.sks; sourceTree = "<group>"; };
@@ -112,6 +116,15 @@
 			name = LargeAsteroid.atlas;
 			sourceTree = "<group>";
 		};
+		1B71F8811CC93BAF0096DE49 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1B71F87F1CC93B980096DE49 /* scifi10.mp3 */,
+				1B71F87D1CC93A830096DE49 /* explosion.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		1B890CDB1CB5726800D1F5CF = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +158,7 @@
 				1B8E5CDC1CBC0A0900795C1B /* OptionsMenu.sks */,
 				1B8E5CDE1CBC0A2400795C1B /* OptionsMenu.swift */,
 				1BF510121CBD619500650692 /* GameUtils.swift */,
+				1B71F8811CC93BAF0096DE49 /* Sounds */,
 				1B2179581CC00601009213C1 /* Asteroid.swift */,
 				1B80D09A1CC7E7E300956869 /* asteroidExplosion.sks */,
 				1B80D09B1CC7E7E300956869 /* spark.png */,
@@ -221,8 +235,10 @@
 				1B21794A1CC0011A009213C1 /* aLarge2.png in Resources */,
 				1B890CF31CB5726800D1F5CF /* Assets.xcassets in Resources */,
 				1B80D09F1CC7E98400956869 /* shipEngine.sks in Resources */,
+				1B71F8801CC93B980096DE49 /* scifi10.mp3 in Resources */,
 				1B21794F1CC0011A009213C1 /* aLarge7.png in Resources */,
 				1B2179571CC0011A009213C1 /* aLarge15.png in Resources */,
+				1B71F87E1CC93A830096DE49 /* explosion.mp3 in Resources */,
 				1B2179491CC0011A009213C1 /* aLarge1.png in Resources */,
 				1B890D001CB573F500D1F5CF /* MainMenu.sks in Resources */,
 				1B80D09D1CC7E7E300956869 /* spark.png in Resources */,

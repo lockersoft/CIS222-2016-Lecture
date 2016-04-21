@@ -17,6 +17,9 @@ var textureAtlas = SKTextureAtlas()
 var asteroidAnimation = [SKTexture]()
 var animateAsteroidAction = SKAction()
 
+var explosionSound = SKAction.playSoundFileNamed("explosion.mp3", waitForCompletion: false)
+var phaserSound = SKAction.playSoundFileNamed("scifi10.mp3", waitForCompletion: false)
+
 var scoreNode = SKLabelNode()
 var gameScore = 0
 
@@ -87,6 +90,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     //   let sequence = SKAction.sequence([ moveAction, SKAction.removeFromParent()])
     phaserShot.runAction( SKAction.sequence(
       [
+        phaserSound,
         moveAction,
         SKAction.removeFromParent()
       ]) )
@@ -136,23 +140,23 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
   func didBeginContact(contact: SKPhysicsContact) {
     print( contact.bodyA.node?.name, contact.bodyB.node?.name )
     
-/*    if (
-      ((contact.bodyA.categoryBitMask == PhysicsCategory.Asteroid) &&
-        (contact.bodyB.categoryBitMask == PhysicsCategory.PhaserShot)) ||
-        ((contact.bodyA.categoryBitMask == PhysicsCategory.PhaserShot) &&
-          (contact.bodyB.categoryBitMask == PhysicsCategory.Asteroid))
-      ) {
-*/
+    /*    if (
+    ((contact.bodyA.categoryBitMask == PhysicsCategory.Asteroid) &&
+    (contact.bodyB.categoryBitMask == PhysicsCategory.PhaserShot)) ||
+    ((contact.bodyA.categoryBitMask == PhysicsCategory.PhaserShot) &&
+    (contact.bodyB.categoryBitMask == PhysicsCategory.Asteroid))
+    ) {
+    */
     let bodyA = contact.bodyA.node!
     let bodyB = contact.bodyB.node!
     
     if( (bodyA.name == "Asteroid" && bodyB.name == "PhaserShot") ||
-        (bodyB.name == "Asteroid" && bodyA.name == "PhaserShot")){
-      self.addChild( explode( contact.contactPoint ) )
-      contact.bodyA.node!.removeFromParent()
-      contact.bodyB.node!.removeFromParent()
-          gameScore += 5
-          scoreNode.text = "Score: " + String(gameScore)
+      (bodyB.name == "Asteroid" && bodyA.name == "PhaserShot")){
+        self.addChild( explode( contact.contactPoint ) )
+        contact.bodyA.node!.removeFromParent()
+        contact.bodyB.node!.removeFromParent()
+        gameScore += 5
+        scoreNode.text = "Score: " + String(gameScore)
     }
   }
 }
@@ -166,6 +170,7 @@ func explode( location: CGPoint ) -> SKEmitterNode {
     explosion.name = "asteroidExplode"
     
     explosion.runAction(SKAction.sequence([
+      explosionSound,
       SKAction.waitForDuration(0.5),
       SKAction.fadeAlphaTo(0.0, duration: 0.3),
       SKAction.removeFromParent()
